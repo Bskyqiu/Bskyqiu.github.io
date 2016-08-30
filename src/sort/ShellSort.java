@@ -1,6 +1,6 @@
 package sort;
 public class ShellSort{  
-    static void sort(int[] array) {  
+    static void shellSort(int[] array) {  
         int out, in, tmp;  
         int len = array.length;  
         int h = 1;   
